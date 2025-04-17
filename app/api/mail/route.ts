@@ -39,10 +39,10 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { email, firstname } = await request.json();
 
   const { data, error } = await resend.emails.send({
-    from: 'Tayyab <sender@waitlist.unpuzzle.co>',
+    from: 'Mahtab <mahtab@unpuzzle.co>',
     to: [email],
     subject: "Thank You for Joining the Waitlist! 🎉",
-    reply_to: "hmtayyab76@gmail.com",
+    reply_to: "muscled.clients1@gmail.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
 
