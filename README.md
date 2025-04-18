@@ -79,3 +79,4 @@ The above button will create a new Vercel project and clone this repository into
 
 Create a `.env.local` file in the root of the project and add the environment variables mentioned above. You can also have a look at the `.env.example` file for reference.
 
+Please make sure to connect the Notion with notion Integrations 
